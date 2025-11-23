@@ -1,0 +1,50 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0F0F0F;
+  color: #E0E0E0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  margin:0;
+}
+.login-card, .chat-container {
+  background:#1C1C1C;
+  padding:30px;
+  border-radius:16px;
+  width:320px;
+  box-shadow:0 0 20px rgba(255,65,54,0.4);
+}
+.login-card input {
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  background:#222;
+  border:none;
+  border-radius:8px;
+  color:#E0E0E0;
+}
+.login-card button {
+  width:100%;
+  padding:10px;
+  border:none;
+  border-radius:8px;
+  background:#FF4136;
+  color:#fff;
+  cursor:pointer;
+}
+#chat-window {
+  height:400px;
+  overflow-y:auto;
+  margin-bottom:10px;
+}
+.message {
+  margin-bottom:10px;
+  padding:10px;
+  border-radius:10px;
+}
+.user { background:#222; text-align:right; }
+.ai { background:#333; text-align:left; }
+#input-area { display:flex; gap:5px; }
+#input-area input { flex:1; padding:10px; border-radius:8px; border:none; background:#222; color:#fff; }
+#input-area button { padding:10px; border-radius:8px; border:none; background:#FF4136; color:#fff; cursor:pointer; }
